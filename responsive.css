@@ -1,0 +1,143 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+@media all and (max-width: 480px) {
+  body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .orange-highlight {
+    color: orange;
+  }
+
+  h1 {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 8px;
+  }
+
+  #no1 {
+    color: goldenrod;
+    font-size: 7px;
+  }
+
+  .half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+  }
+
+  .half-width img {
+    width: 100%;
+  }
+
+  .top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+  }
+
+  section {
+    height: 100px;
+    padding-bottom: 20px;
+  }
+
+  .link-button {
+    text-decoration: none;
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: antiquewhite;
+    background-image: linear-gradient(45deg, lightSalmon, orange);
+  }
+
+  .link-button:hover {
+    background-image: linear-gradient(45deg,
+        rgb(253, 176, 146),
+        rgb(253, 204, 114));
+    color: black;
+  }
+
+  div>p {
+    color: dimgray;
+  }
+
+  .dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .single-experience {
+    box-shadow: 2px 2px 8px grey;
+    border-radius: 3px;
+    height: 80%;
+    background-color: white;
+  }
+
+  .experience-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  #full-web {
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg, lightSalmon, yellow);
+    border-image-slice: 1;
+  }
+
+  #full-web:hover {
+    box-shadow: 2px 2px 2px gold;
+  }
+
+  #baby-web {
+    border-left: 2px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+  }
+
+  #baby-web:hover {
+    box-shadow: 2px 2px 8px rgb(84, 206, 206);
+  }
+
+  #cr {
+    text-align: center;
+    color: dimgray;
+    font-size: small;
+  }
+}
+
+/* section {
+    height: 50px;
+    padding-bottom: 25px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  #no1 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  div > p {
+    font-size: 10px;
+  }
+  .link-button {
+    padding: 2px 3px;
+    border-radius: 3px;
+  }
+  .half-width {
+    float: left;
+    width: 40%;
+  } */

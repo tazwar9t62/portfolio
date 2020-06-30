@@ -10,13 +10,16 @@ body {
 h1 {
   font-size: 50px;
 }
+
 h2 {
   font-size: 40px;
 }
+
 #no1 {
   color: goldenrod;
   font-size: 25px;
 }
+
 .half-width {
   width: 40%;
   margin-left: 5%;
@@ -27,14 +30,17 @@ h2 {
 .half-width img {
   width: 100%;
 }
+
 .top-banner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
+
 section {
   height: 500px;
   padding-bottom: 150px;
 }
+
 .link-button {
   text-decoration: none;
   padding: 10px 20px;
@@ -45,21 +51,22 @@ section {
 }
 
 .link-button:hover {
-  background-image: linear-gradient(
-    45deg,
-    rgb(253, 176, 146),
-    rgb(253, 204, 114)
-  );
+  background-image: linear-gradient(45deg,
+      rgb(253, 176, 146),
+      rgb(253, 204, 114));
   color: black;
 }
-div > p {
+
+div>p {
   color: dimgray;
 }
+
 .dream-area {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
+
 .single-experience {
   box-shadow: 10px 10px 40px grey;
   border-radius: 5px;
@@ -72,22 +79,30 @@ div > p {
   background-repeat: no-repeat;
   background-position: left;
 }
+
+/* Card left */
 #full-web {
   border-left: 7px solid;
   border-image: linear-gradient(180deg, lightSalmon, yellow);
   border-image-slice: 1;
 }
+
 #full-web:hover {
   box-shadow: 10px 10px 40px gold;
 }
+
+/* Card Right */
 #baby-web {
   border-left: 7px solid;
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
+
 #baby-web:hover {
   box-shadow: 10px 10px 40px rgb(84, 206, 206);
 }
+
+/* Footer */
 #cr {
   text-align: center;
   color: dimgray;
